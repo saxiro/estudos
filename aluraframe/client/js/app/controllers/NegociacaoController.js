@@ -15,7 +15,7 @@ class NegociacaoController{
         event.preventDefault(); //Cancela a submissão do formulário
         
         //let data = new Date(this._inputData.value);
-        let data = new Date(ajustaData(this._inputData.value.split('-'))); 
+        let data = new Date(this.ajustaData(this._inputData.value.split('-'))); 
 
         console.log(typeof(data));
 
