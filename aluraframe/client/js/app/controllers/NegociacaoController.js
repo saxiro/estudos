@@ -15,25 +15,21 @@ class NegociacaoController{
         event.preventDefault(); //Cancela a submissão do formulário
         
         //let data = new Date(this._inputData.value);
-        let data = new Date(this.ajustaData(this._inputData.value.split('-'))); 
-
-        console.log(typeof(data));
-
-        console.log(this._inputData.value);
+        let data = new Date(
+            ...this._inputData.value
+            .split('-')
+            .map((item, indice) =>  item - indice % 2)
+        
+        );
 
         let negociacao = new Negociacao(
-            this._inputData.value,
+            data,
             this._inputQuantidade.value,
             this._inputValor.value
         );
 
         console.log(negociacao);
-
-        
     
-    }
-    ajustaData(data){
-        data[1] = (parseInt(data[1]) - 1).toString(); 
     }
     
 }
