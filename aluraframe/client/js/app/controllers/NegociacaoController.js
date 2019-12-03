@@ -8,6 +8,8 @@ class NegociacaoController{
         this._inputQuantidade = $('#quantidade');
         this._inputValor = $('#valor');
 
+        
+
     }
 
     adiciona(event){
@@ -27,9 +29,14 @@ class NegociacaoController{
             this._inputQuantidade.value,
             this._inputValor.value
         );
+        
+        let diaMesAno = negociacao.data.getDate() + 
+        '/' + (negociacao.data.getMonth()+1) + 
+        '/' + negociacao.data.getFullYear();
 
-        console.log(negociacao);
-    
+        console.log(diaMesAno);
     }
+
+    
     
 }
