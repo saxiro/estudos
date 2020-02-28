@@ -1232,6 +1232,11 @@ jws@^3.2.2:
     jwa "^1.4.1"
     safe-buffer "^5.0.1"
 
+last@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/last/-/last-1.1.0.tgz#066ea42287ed9f9ab68effaa647427d591f26525"
+  integrity sha1-Bm6kIoftn5q2jv+qZHQn1ZHyZSU=
+
 latest-version@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/latest-version/-/latest-version-3.1.0.tgz#a205383fea322b33b5ae3b18abee0dc2f356ee15"
