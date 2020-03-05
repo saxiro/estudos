@@ -1,0 +1,33 @@
+#logo {
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 42px;
+    top: 20px;
+    color:white;
+}
+#caixa {
+    position: absolute;
+    width: 1024px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    background: #4A90E2;
+}
+#meu-perfil {
+    position: absolute;
+width: 71px;
+height: 18px;
+left: 879px;
+top: 23px;
+
+font-family: Helvetica;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}

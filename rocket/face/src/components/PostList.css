@@ -1,0 +1,12 @@
+#postList {
+    position: absolute;
+    width: 725px;
+    height: 977px;
+    left: 150px;
+    top: 70px;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 6px solid #56FF66;
+    box-sizing: border-box;
+}
